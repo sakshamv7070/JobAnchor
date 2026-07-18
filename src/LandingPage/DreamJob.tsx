@@ -47,14 +47,14 @@ const DreamJob = () => {
       {/* RIGHT SIDE IMAGE */}
       <div className="w-[55%] flex-col items-center justify-center">
         <div className="w-[40rem] relative">
-        <img src="/boy.png"   alt="Working person"/>
+        <img src="/Boy.png"   alt="Working person"/>
         
         <div className=" backdrop-blur-md absolute w-fit top-[50%] border border-bright-sun-400 rounded-lg p-2 -right-8">
         <div className="text-mine-shaft-200 mb-1 text-sm text-center">10k got job</div>
         <Avatar.Group>
-          <Avatar src="Avatar-8.png" />
-          <Avatar src="Avatar-6.png" />
-          <Avatar src="Avatar-9.png" />
+          <Avatar src="/avatar-8.png" />
+          <Avatar src="/avatar-6.png" />
+          <Avatar src="/avatar-9.png" />
           <Avatar>9k+</Avatar>
         </Avatar.Group>
          </div>
