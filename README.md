@@ -76,9 +76,8 @@ Update your MongoDB connection string in `application.properties` before running
 ## 📂 Project Structure
 
 ```
-jobanchor/
-├── frontend/          # React + TypeScript + Mantine UI
-│   ├── src/
+jobanchor/      
+│   ├── src/      # React + TypeScript + Mantine UI
 │   │   ├── components/
 │   │   ├── pages/
 │   │   └── routes/
@@ -95,8 +94,8 @@ jobanchor/
 
 **Saksham Verma**
 - 📧 sakshamv7070@gmail.com
-- 💼 [LinkedIn](#)
-- 💻 [GitHub](#)
+- 💼 [LinkedIn](www.linkedin.com/in/saksham-verma-678250306)
+- 💻 [GitHub](https://github.com/sakshamv7070)
 
 ---
 
