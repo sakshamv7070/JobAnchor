@@ -1,8 +1,10 @@
 
 # JobAnchor 🚀 <p align="center">
-  <img src="./src/assets/logo.png" alt="JobAnchor Logo" width="400"/>
+  <img src="./src/assets/logo.png" alt="JobAnchor Logo" width="500"/>
 </p>
+
 **A Full Stack Job Portal Application**
+
 JobAnchor is a full-stack job portal designed to connect job seekers and recruiters through a clean, modern interface backed by a robust Spring Boot API and MongoDB data layer. The project is currently under active development.
 
 🔗 **Live Demo:** [jobanchor.vercel.app](https://jobanchor.vercel.app/)
