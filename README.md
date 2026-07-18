@@ -1,46 +1,109 @@
-# Getting Started with Create React App
+p align="center">
+  <img src="./assets/logo.png" alt="JobAnchor Logo" width="150"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# JobAnchor 🚀 
 
-## Available Scripts
 
-In the project directory, you can run:
+**A Full Stack Job Portal Application**
 
-### `npm start`
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://job-portal-1g1a-egnorvyw7-sakshams-projects-0c3199a8.vercel.app/upload-job)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+JobAnchor is a full-stack job portal designed to connect job seekers and recruiters through a clean, modern interface backed by a robust Spring Boot API and MongoDB data layer. The project is currently under active development.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+🔗 **Live Demo:** [job-portal-1g1a-egnorvyw7-sakshams-projects-0c3199a8.vercel.app](https://job-portal-1g1a-egnorvyw7-sakshams-projects-0c3199a8.vercel.app/upload-job)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+| Layer | Technology |
+|---|---|
+| Frontend | React.js, TypeScript, Mantine UI |
+| Backend | Spring Boot (REST APIs) |
+| Database | MongoDB |
+| Routing | React Router |
+| Version Control | Git & GitHub |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🎨 Modern, responsive frontend built with React, TypeScript, and Mantine UI
+- 🧭 Multi-module navigation for different user roles (job seekers / recruiters)
+- 📤 Job upload interface for posting new job listings
+- 🔗 REST API integration between frontend and Spring Boot backend *(in progress)*
+- 🗄️ MongoDB-backed data storage for jobs and user information *(in progress)*
 
-### `npm run eject`
+> **Status:** This project is a work in progress. Backend service integration with the frontend is currently underway.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Roadmap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] Set up React + TypeScript + Mantine UI frontend
+- [x] Implement application routing and navigation
+- [ ] Complete Spring Boot REST API endpoints
+- [ ] Integrate frontend with backend services
+- [ ] Add authentication (job seeker / recruiter roles)
+- [ ] Deploy backend and connect to live frontend
+- [ ] Add job search & filtering
+- [ ] Add application tracking dashboard
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
+- Node.js (v18+)
+- Java 17+ and Maven (for backend)
+- MongoDB (local or Atlas)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Frontend Setup
+```bash
+git clone https://github.com/<your-username>/jobanchor.git
+cd jobanchor/frontend
+npm install
+npm run dev
+```
+
+### Backend Setup
+```bash
+cd jobanchor/backend
+mvn spring-boot:run
+```
+
+Update your MongoDB connection string in `application.properties` before running the backend.
+
+---
+
+## 📂 Project Structure
+
+```
+jobanchor/
+├── frontend/          # React + TypeScript + Mantine UI
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── routes/
+│   └── package.json
+├── backend/           # Spring Boot REST API
+│   ├── src/main/java/
+│   └── pom.xml
+└── README.md
+```
+
+---
+
+## 🙋 Author
+
+**Saksham Verma**
+- 📧 sakshamv7070@gmail.com
+- 💼 [LinkedIn](#)
+- 💻 [GitHub](#)
+
+---
+
+## 📄 License
+
+This project is currently for personal/portfolio use. License to be added.
