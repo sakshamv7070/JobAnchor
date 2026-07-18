@@ -1,5 +1,5 @@
 p align="center">
-  <img src="./assets/logo.png" alt="JobAnchor Logo" width="150"/>
+  <img src="./src/assets/logo.png" alt="JobAnchor Logo" width="150"/>
 </p>
 
 # JobAnchor 🚀 
