@@ -58,7 +58,7 @@ JobAnchor is a full-stack job portal designed to connect job seekers and recruit
 ### Frontend Setup
 ```bash
 git clone https://github.com/sakshamv7070/jobanchor.git
-cd jobanchor
+cd JobAnchor
 npm install
 npm run dev
 ```
