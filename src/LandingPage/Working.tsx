@@ -12,7 +12,7 @@ const Working=()=>{
    <div className="flex px-16 items-center justify-between">
 
      <div className="relative">
-        <img className="w-[30rem]" src="/Working/girl.png" alt="girl" />
+        <img className="w-[30rem]" src="/Working/Girl.png" alt="girl" />
         <div className="w-36 flex-col justify-center items-center gap-1 border border-bright-sun-400 rounded-xl py-3 px-1 backdrop-blur-md top-[15%] absolute right-0">
             <Avatar className="!h-16 !w-16" src="avatar-8.png" alt="girl" />
             <div className="text-sm font-semibold text-mine-shaft-200">
