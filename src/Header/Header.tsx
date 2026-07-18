@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex items-center gap-2">
             
              <div>Saksham</div>
-             <Avatar src="avatar-9.png" alt="it's me" />
+             <Avatar src="/avatar-9.png" alt="it's me" />
             
              </div>
               <div  className="bg-mine-shaft-800 p-1.5 rounded-full" >
