@@ -7,7 +7,7 @@
 
 JobAnchor is a full-stack job portal designed to connect job seekers and recruiters through a clean, modern interface backed by a robust Spring Boot API and MongoDB data layer. The project is currently under active development.
 
-🔗 **Live Demo:** [job-portal-1g1a-egnorvyw7-sakshams-projects-0c3199a8.vercel.app]((https://jobanchor.vercel.app/))
+🔗 **Live Demo:** [jobanchor.vercel.app]((https://jobanchor.vercel.app/))
 
 ---
 
