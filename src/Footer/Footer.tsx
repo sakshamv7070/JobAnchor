@@ -9,7 +9,7 @@ import { footerLinks } from "../Data/Data";
 
 const Footer = () => {
   return (
-    <div className="mt-20 pb-5 flex justify-around">
+    <div className="py-10 flex justify-around bg-mine-shaft-950 font-['poppins']">
 
       {/* Left Section */}
       <div className="flex flex-col w-1/4 gap-4">
@@ -40,7 +40,7 @@ const Footer = () => {
           {item.links.map((link, i) => (
             <div
               key={i}
-              className="text-sm ease-in transition duration-300 hover:translate-x-2 text-mine-shaft-300 hover:text-bright-sun-400 mb-1 cursor-pointer "
+              className="text-sm ease-in transition duration-300 hover:translate-x-2 text-mine-shaft-300 hover:text-bright-sun-400 mb-1 cursor-pointer  "
             >
               {link}
             </div>

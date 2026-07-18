@@ -1,4 +1,4 @@
-const companies = ["Google", "Amazon",  "Netflix", "Meta", "Microsoft", "Pinterest", "Slack", "Spotify", "Oracle", "Walmart"];
+const companies = ["Google", "Amazon", "Figma", "Netflix", "Meta", "Microsoft", "Pinterest", "Slack", "Spotify", "Oracle", "Walmart"];
 
 const jobCategory = [
     {
@@ -71,7 +71,7 @@ const work = [
 
 const testimonials = [
     {
-        "name": "Saksham Verma",
+        "name": "Shivam Patel",
         "testimonial": "This job portal made job search easy and quick. Recommended to all job seekers!",
         "rating": 5
     },

@@ -4,6 +4,9 @@ import '@mantine/core/styles.css';
 import Homepage from './Pages /Homepage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import '@mantine/carousel/styles.css';
+import FindJobs from './Pages /FindJobs';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 function App() {
   const theme = createTheme({
@@ -22,9 +25,12 @@ function App() {
   return (
     <MantineProvider theme={theme}>
       <BrowserRouter>
+      <Header />
         <Routes>
+           <Route path='/find-jobs' element={<FindJobs />} />
           <Route path="*" element={<Homepage />} />
         </Routes>
+          <Footer/>
       </BrowserRouter>
     </MantineProvider>
   );
