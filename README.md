@@ -1,9 +1,7 @@
-p align="center">
+
+# JobAnchor 🚀 <p align="center">
   <img src="./src/assets/logo.png" alt="JobAnchor Logo" width="150"/>
 </p>
-
-# JobAnchor 🚀 
-
 
 **A Full Stack Job Portal Application**
 
