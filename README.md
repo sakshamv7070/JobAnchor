@@ -1,6 +1,6 @@
 
 # JobAnchor 🚀 <p align="center">
-  <img src="./src/assets/logo.png" alt="JobAnchor Logo" width="150"/>
+  <img src="./src/assets/logo.png" alt="JobAnchor Logo" width="400"/>
 </p>
 
 **A Full Stack Job Portal Application**
