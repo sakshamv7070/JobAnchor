@@ -9,7 +9,7 @@ import { footerLinks } from "../Data/Data";
 
 const Footer = () => {
   return (
-    <div className="py-10 flex justify-around bg-mine-shaft-950 font-['poppins']">
+    <div className=" py-10 flex justify-around bg-mine-shaft-950 font-['poppins']">
 
       {/* Left Section */}
       <div className="flex flex-col w-1/4 gap-4">
