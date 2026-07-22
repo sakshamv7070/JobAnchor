@@ -52,7 +52,7 @@ const JobCard = (props:any) => {
 
         <div className="flex gap-2 items-center text-xs text-mine-shaft-400">
           <IconClockHour3 className="h-5 w-5" stroke={1.5} />
-          <span>{props.postedDayAgo}</span>
+          <span>{props.postedDaysAgo}</span>
         </div>
       </div>
     </div>

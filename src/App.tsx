@@ -7,6 +7,7 @@ import '@mantine/carousel/styles.css';
 import FindJobs from './Pages /FindJobs';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import FindTalent from './Pages /FindTalent';
 
 function App() {
   const theme = createTheme({
@@ -19,6 +20,18 @@ function App() {
         '#fafafa', '#f5f5f5', '#e6e6e6', '#d6d6d6', '#a5a5a5',
         '#767676', '#575757', '#434343', '#2d2d2d', '#1a1a1a', '#0a0a0a',
       ],
+      brightSun: [
+      "#fff8e1",
+      "#ffefb3",
+      "#ffe680",
+      "#ffdc4d",
+      "#FFD43B",
+      "#fcb900",
+      "#e6a700",
+      "#cc9500",
+      "#b38300",
+      "#997100",
+    ],
     },
   });
 
@@ -28,6 +41,7 @@ function App() {
       <Header />
         <Routes>
            <Route path='/find-jobs' element={<FindJobs />} />
+          <Route path='/find-talent' element={<FindTalent />} />
           <Route path="*" element={<Homepage />} />
         </Routes>
           <Footer/>
