@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { IconBookmark, IconClockHour3 } from "@tabler/icons-react";
 import { Divider, Text } from "@mantine/core";
 
-const JobCard = (props:any) => {
+const JobCard = (props: any) => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <div className="bg-mine-shaft-900 p-5 w-85 flex flex-col gap-7 rounded-xl">
       {/* Header */}
@@ -34,12 +37,21 @@ const JobCard = (props:any) => {
       </div>
 
       {/* Description */}
-      <Text
-        className="!text-xs text-justify text-mine-shaft-300"
-        lineClamp={4}
-      >
-        {props.description}
-      </Text>
+      <div>
+        <Text
+          className="!text-xs text-mine-shaft-300 leading-5"
+          lineClamp={expanded ? undefined : 4}
+        >
+          {props.description}
+        </Text>
+
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="mt-2 text-xs text-bright-sun-400 hover:underline"
+        >
+          {expanded ? "Show Less" : "Read More"}
+        </button>
+      </div>
 
       {/* Divider */}
       <Divider className="border-mine-shaft-700 size-xs" />

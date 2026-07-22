@@ -1,9 +1,13 @@
 import {  IconHeart,  IconMapPin } from "@tabler/icons-react";
 import { Avatar, Divider, Text, Button } from "@mantine/core";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const TalentCard = (props:any) => {
+    const [expanded, setExpanded] = useState(false);
+
   return (
+    
     <div className="bg-mine-shaft-900 p-5 w-85 flex flex-col gap-7 rounded-xl transition duration-300 ease-in-out flex-col hover:shadoq-[0_0_5px_1px_yellow] w-96">
       
       <div className="flex justify-between">
@@ -36,12 +40,18 @@ const TalentCard = (props:any) => {
 
       {/* Description */}
       <Text
-        className="!text-xs text-justify text-mine-shaft-300"
-        lineClamp={4}
+        className="!text-xs text-mine-shaft-300 leading-5"
+        lineClamp={expanded ? undefined : 4}
       >
-      {props.about}
+        {props.about}
       </Text>
 
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="text-bright-sun-400 text-xs mt-1"
+      >
+        {expanded ? "Show Less" : "Read More"}
+      </button>
       {/* Divider */}
       <Divider className="border-mine-shaft-700 size-xs" />
 
