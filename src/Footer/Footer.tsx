@@ -25,10 +25,29 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-4 text-bright-sun-400">
-          <div><IconBrandFacebook /></div>
-          <div><IconBrandInstagram /></div>
-          <div><IconBrandX /></div>
-        </div>
+     <a
+    href="https://www.facebook.com/your_username"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition duration-300 hover:text-white hover:scale-110">
+    <IconBrandFacebook size={24} />
+     </a>
+     <a
+    href="https://www.instagram.com/yo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition duration-300 hover:text-white hover:scale-110">
+    <IconBrandInstagram size={24} />
+     </a>
+
+    <a
+    href="https://x.com/your_usern"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition duration-300 hover:text-white hover:scale-110">
+    <IconBrandX size={24} />
+   </a>
+      </div>
 
       </div>
 
