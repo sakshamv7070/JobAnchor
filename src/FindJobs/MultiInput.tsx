@@ -6,7 +6,7 @@ import {
   InputBase,
   useCombobox,
 } from "@mantine/core";
-import { IconSearch } from "@tabler/icons-react";
+
 
 
 interface MultiInputProps {

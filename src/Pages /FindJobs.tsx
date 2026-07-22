@@ -2,7 +2,7 @@ import { Divider } from "@mantine/core";
 import SearchBar from "../FindJobs/SearchBar";
 import { useState } from "react";
 import Jobs from "../FindJobs/Jobs";
-import JobCard from "../FindJobs/JobCard";    
+   
 
 
 const FindJobs = ()=>
